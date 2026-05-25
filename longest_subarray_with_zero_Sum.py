@@ -15,6 +15,7 @@ def longestZeroSumSubarray(arr):
     prefix_sum = 0
     index_map = {}   # stores first occurrence of prefix_sum
     max_len = 0
+
     for i in range(len(arr)):
         prefix_sum += arr[i]
 
