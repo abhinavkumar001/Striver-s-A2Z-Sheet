@@ -12,6 +12,5 @@ def maxProductSubArray(arr):
         prod = min(curr,prod*curr)
     return max(result,max_prod)
 
-
 arr= [1,2,-3,0,-4,-5]
 print(f"Maximum product of the SubArray is:{maxProductSubArray(arr)}")
